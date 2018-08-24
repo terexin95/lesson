@@ -110,8 +110,6 @@ discountValue.style.cssColor = 'white';
 discountValue.style.fontSize = '12px';
 
 
-
-
 let btnDisc = document.createElement('button');
 
 btnDisc.textContent = 'Нажмите чтобы узнать скидку';
