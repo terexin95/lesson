@@ -302,9 +302,11 @@
 						seconds.innerHTML = '00';
 					}
 				};
-				timeIntr();
 
-				timeInterval = setInterval(timeIntr, 1000);
+				timeIntr();
+				timeIntr = setInterval(timeIntr, 1000);
+
+				
 			};
 
 			clockTime('timer', deadline);
